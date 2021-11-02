@@ -14,6 +14,8 @@ De Zelftest App zit momenteel in de designfase, en er is behoefte aan een campag
 
 Je leert hoe je op basis van een bestaande huisstijl een actie site kan ontwerpen en maken.
 
+## Planning
+
 <table>
     <tr>
         <td colspan="4"><b>Week 1</b></td>
