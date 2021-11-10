@@ -8,7 +8,7 @@ Deze leertaak hoort bij sprint The Campaign. Dit is een autonomous leertaak die 
 ## Briefing
 Het Zelftest App project is een samenwerking tussen Streeklab Haarlem en verschillende instanties binnen de HvA (Smart Asset Management Lab, HBO-ICT, CMD en FDND).
 
-De Zelftest App zit momenteel in de designfase, en er is behoefte aan een campagne website om de App te kunnen promoten en. De campagne website moet voldoen aan de huisstijl en moet responsive zijn.
+De Zelftest App zit momenteel in de designfase, en er is behoefte aan een campagne website om de App te kunnen promoten en de campagne website moet voldoen aan de huisstijl en moet responsive zijn.
 
 ## Doel van deze opdracht
 
