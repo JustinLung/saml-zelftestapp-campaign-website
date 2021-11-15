@@ -2,7 +2,7 @@
 
 Bouw een campagne website voor de Zelftest App
 
-## Context
+## Context 
 Deze leertaak hoort bij sprint The Campaign. Dit is een autonomous leertaak die je individueel uitvoert voor de Zelftest App.
 
 ## Briefing
@@ -10,7 +10,7 @@ Het Zelftest App project is een samenwerking tussen Streeklab Haarlem en verschi
 
 De Zelftest App zit momenteel in de designfase, en er is behoefte aan een campagne website om de App te kunnen promoten en de campagne website moet voldoen aan de huisstijl en moet responsive zijn.
 
-## Doel van deze opdracht
+ ## Doel van deze opdracht
 
 Je leert hoe je op basis van een bestaande huisstijl een actie site kan ontwerpen en maken.
 
