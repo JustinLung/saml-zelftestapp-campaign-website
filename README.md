@@ -61,7 +61,7 @@ n.v.t
 
 ## 📕 Wiki
 
-Link naar de [Wiki](https://github.com/DaanKorver/fdnd-programma-microsite-autonomous/wiki)
+Link naar de [Wiki]()
 
 ## 🥇 Bronnen
 
