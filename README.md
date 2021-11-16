@@ -25,11 +25,43 @@ SAML wilt een campagne website voor de nieuwe scanmytest.com app. Hierbij is er 
 
 ## 🐸 Kenmerken
 
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+**Tools gebruikt:**
+
+- 💻 Visual Studio Code
+- 🤳 Photoshop
+- 🖌️ Figma
+- 🐼 TinyPNG
+- ✍️ Pen & Papier
+
+**Code Skills:**
+
+- 💀 HTML5
+- 🧍 CSS3
+- ⚽ JavaScript
 
 ## 💥 Installatie
 
+Installeren met HTTPS
+
+```
+git clone https://github.com/JustinLung/saml-zelftestapp-campaign-website.git
+cd saml-zelftestapp-campaign-website
+```
+
+Installeren met SSH
+
+```
+git@github.com:JustinLung/saml-zelftestapp-campaign-website.git
+cd saml-zelftestapp-campaign-website
+```
+
 ## 🚊 Gebruik
+
+n.v.t
+
+## 📕 Wiki
+
+Link naar de [Wiki](https://github.com/DaanKorver/fdnd-programma-microsite-autonomous/wiki)
 
 ## 🥇 Bronnen
 
