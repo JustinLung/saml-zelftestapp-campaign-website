@@ -1,18 +1,95 @@
 @font-face {
-    font-family: "SF-Pro-Display";
-    src: url("../assets/fonts/SF-Pro-Display-Thin.woff2");
-    src: url("../assets/fonts/SF-Pro-Display-Light.woff2");
-    src: url("../assets/fonts/SF-Pro-Display-Medium.woff2");
-    src: url("../assets/fonts/SF-Pro-Display-Regular.woff2");
-    src: url("../assets/fonts/SF-Pro-Display-Semibold.woff2");
+  font-family: "SF-Pro-Display";
+  src: url("../assets/fonts/SF-Pro-Display-Thin.woff2");
+  src: url("../assets/fonts/SF-Pro-Display-Light.woff2");
+  src: url("../assets/fonts/SF-Pro-Display-Medium.woff2");
+  src: url("../assets/fonts/SF-Pro-Display-Regular.woff2");
+  src: url("../assets/fonts/SF-Pro-Display-Semibold.woff2");
+}
+
+/* Variables css */
+:root {
+  --dark-blue: #0e49a2;
+  --dark-lighter-blue: #0b53c8;
+  --lighter-blue: #0b61ee;
+  --light-blue: #1970ff;
 }
 
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: "SF-Pro-Display", sans-serif;
-    padding: 0;
-    margin: 0;
+  font-family: "SF-Pro-Display", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding: 0 1em;
+}
+
+.service > h2 {
+  font-size: 2rem;
+  color: var(--dark-blue);
+  padding: .4em 0;
+  text-align: center;
+}
+
+.service .service-container > h3 {
+  font-size: 1.625rem;
+  color: var(--dark-blue);
+  padding: 0.4em 0;
+}
+
+.service .service-container {
+  background-color: #ffff;
+  border-radius: 1.5em;
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.2);
+  padding: 2em;
+  margin: 0.5em;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service .service-container > img {
+  max-width: 30%;
+  max-height: 30%;
+  margin-bottom: 0.5em;
+}
+
+.service > .service-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 40em) {
+  .service > .service-grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service .service-container > h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 70em) {
+    .service > .service-grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
 }
