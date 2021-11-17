@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "SF-Pro-Display";
+    src: url("../assets/fonts/SF-Pro-Display-Thin.woff2");
+    src: url("../assets/fonts/SF-Pro-Display-Light.woff2");
+    src: url("../assets/fonts/SF-Pro-Display-Medium.woff2");
+    src: url("../assets/fonts/SF-Pro-Display-Regular.woff2");
+    src: url("../assets/fonts/SF-Pro-Display-Semibold.woff2");
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "SF-Pro-Display", sans-serif;
+    padding: 0;
+    margin: 0;
+}
