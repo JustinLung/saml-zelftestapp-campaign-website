@@ -61,7 +61,7 @@ n.v.t
 
 ## 📕 Wiki
 
-Link naar de [Wiki]()
+Link naar de [Wiki](https://github.com/JustinLung/saml-zelftestapp-campaign-website/wiki)
 
 ## 🥇 Bronnen
 
