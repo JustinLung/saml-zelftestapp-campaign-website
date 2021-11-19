@@ -49,6 +49,10 @@ a {
 a:hover {
 }
 
+section {
+  padding: 1em 0;
+}
+
 /* HOME */
 
 #home {
@@ -72,6 +76,11 @@ a:hover {
 }
 
 /* COLORS SECTION */
+
+#colors h2,
+#colors h3 {
+  margin-top: 1em;
+}
 
 #colors .colors-container {
   display: flex;
@@ -123,35 +132,58 @@ a:hover {
   font-size: 1rem;
 }
 
-@media (max-width: 60rem) {
-  .home > h2 {
-    font-size: 1.5rem;
-  }
+/* Buttons */
 
-  .home > p {
-    font-size: 1rem;
-  }
-  #colors {
-    text-align: center;
-  }
+#buttons {
+  height: auto;
+  width: 100%;
+}
 
-  #colors .colors-container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+#buttons p {
+  padding-bottom: .5em;
+}
 
-  #typography  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+#buttons button {
+  cursor: pointer !important;
+  all: unset;
+  padding: 0.8em 3em;
+  border-radius: 1.5em;
+}
 
-  #buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+#buttons .cta-1 {
+  background-color: #0e49a2;
+  border: 2px solid #0e49a2;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+#buttons .cta-1:hover {
+  background-color: #fff;
+  color: #0e49a2;
+  border: 2px solid #0e49a2;
+}
+
+#buttons .cta-2 {
+  background-color: #0b53c8;
+  border: 2px solid #0b53c8;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+#buttons .cta-2:hover {
+  background-color: #fff;
+  color: #0b53c8;
+  border: 2px solid #0b53c8;
+}
+
+#buttons .cta-3 {
+  background-color: transparent;
+  border: 2px solid #1970ff;
+  color: #1970ff;
+  transition: 0.3s ease-in-out;
+}
+
+#buttons .cta-3:hover {
+  background-color: #1970ff;
+  color: #fff;
 }
