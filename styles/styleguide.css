@@ -1,30 +1,83 @@
-header,
-main {
-  padding: 1em;
+:root {
+  --dark-blue: #0e49a2;
+  --dark-lighter-blue: #0b53c8;
+  --lighter-blue: #0b61ee;
+  --light-blue: #1970ff;
+  --secondary: #eff3fa;
 }
 
+/* NAVIGATION */
+
 header {
+  width: 100%;
+  padding: 1em 0;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   align-items: center;
 }
 
-header h1,
-header p {
-  font-size: 1.5rem;
+header h1 {
+  color: var(--dark-blue);
 }
 
-h2 {
-  margin: 1em 0;
+header nav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.colors-container {
-  max-width: 1280px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.colors-container > .color {
+header nav ul li {
+  width: 100%;
+  margin: 0 0.5em;
+}
+
+a {
+  color: var(--dark-blue);
+  text-decoration: none;
+}
+
+a:hover {
+}
+
+/* HOME */
+
+#home {
+  height: 70vh;
+  background-color: var(--secondary);
+
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home > h2 {
+  font-size: 2.5rem;
+}
+
+#home > p {
+  font-size: 1.375rem;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+/* COLORS SECTION */
+
+#colors .colors-container {
+  display: flex;
+}
+
+#colors .colors-container > .color {
   border-radius: 1em;
   height: 280px;
   width: 280px;
@@ -32,6 +85,12 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+
+  margin: 0 0.5em;
+}
+
+#colors .colors-container > .color:first-child {
+  margin-left: 0;
 }
 
 .color-1 {
@@ -46,21 +105,53 @@ h2 {
 .color-4 {
   background-color: #1970ff;
 }
+.color-5 {
+  background-color: #eff3fa;
+}
+
+.color-5 p {
+  color: #000 !important;
+}
 
 .colors-container > .color p {
   padding-bottom: 2em;
   color: #fff;
 }
 
-.colors-container > .color > p {
+/* Typography */
+#typography {
+  font-size: 1rem;
 }
 
-@media (max-width: 55em) {
-  h2 {
+@media (max-width: 60rem) {
+  .home > h2 {
+    font-size: 1.5rem;
+  }
+
+  .home > p {
+    font-size: 1rem;
+  }
+  #colors {
     text-align: center;
   }
 
-  .colors-container > .color {
-    margin: 1em 0;
+  #colors .colors-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #typography  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
