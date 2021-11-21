@@ -27,6 +27,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 header nav ul {
@@ -46,8 +47,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-}
+/* a:hover {
+} */
 
 section {
   padding: 1em 0;
@@ -84,10 +85,11 @@ section {
 
 #colors .colors-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #colors .colors-container > .color {
-  border-radius: 1em;
+  border-radius: 15px;
   height: 280px;
   width: 280px;
 
@@ -95,11 +97,7 @@ section {
   justify-content: center;
   align-items: flex-end;
 
-  margin: 0 0.5em;
-}
-
-#colors .colors-container > .color:first-child {
-  margin-left: 0;
+  margin: 1em 0.5em;
 }
 
 .color-1 {
@@ -118,16 +116,17 @@ section {
   background-color: #eff3fa;
 }
 
-.color-5 p {
+.color-5 {
   color: #000 !important;
 }
 
-.colors-container > .color p {
+.colors-container > .color {
   padding-bottom: 2em;
   color: #fff;
 }
 
 /* Typography */
+
 #typography {
   font-size: 1rem;
 }
@@ -150,40 +149,98 @@ section {
   border-radius: 1.5em;
 }
 
-#buttons .cta-1 {
-  background-color: #0e49a2;
-  border: 2px solid #0e49a2;
+#buttons .btn-information {
+  background-color: var(--dark-blue);
+  border: 2px solid var(--dark-blue);
   color: #fff;
   transition: 0.3s ease-in-out;
 }
 
-#buttons .cta-1:hover {
+#buttons .btn-information:hover {
   background-color: #fff;
-  color: #0e49a2;
-  border: 2px solid #0e49a2;
+  color: var(--dark-blue);
+  border: 2px solid var(--dark-blue);
 }
 
-#buttons .cta-2 {
+#buttons .btn-informationsecondary {
   background-color: #0b53c8;
   border: 2px solid #0b53c8;
   color: #fff;
   transition: 0.3s ease-in-out;
 }
 
-#buttons .cta-2:hover {
+#buttons .btn-informationsecondary:hover {
   background-color: #fff;
   color: #0b53c8;
   border: 2px solid #0b53c8;
 }
 
-#buttons .cta-3 {
+#buttons .btn-informationlight {
   background-color: transparent;
   border: 2px solid #1970ff;
   color: #1970ff;
   transition: 0.3s ease-in-out;
 }
 
-#buttons .cta-3:hover {
+#buttons .btn-informationlight:hover {
   background-color: #1970ff;
   color: #fff;
+}
+
+/* Layout */
+
+/* Flexbox */
+#layout .flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#layout .flexbox-container > .flexbox {
+  border-radius: 15px;
+  height: 280px;
+  width: 280px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  margin: 1em 0.5em;
+}
+
+.flexbox-container > .flexbox {
+  background-color: var(--secondary);
+  padding-bottom: 2em;
+  color: black;
+}
+
+/* Grid */
+#layout .grid-container {
+  display: grid;
+  grid-template-columns:  repeat(auto-fill, 280px);
+  gap: 20px;
+}
+
+#layout .grid-container > .gridbox {
+  border-radius: 15px;
+  height: 280px;
+
+  display: grid;
+  justify-content: center;
+  align-items: flex-end;
+
+  margin: 1em 0.5em;
+}
+
+.grid-container > .gridbox {
+  background-color: var(--secondary);
+  padding-bottom: 2em;
+  color: black;
+}
+
+/* Icons */
+
+svg {
+  transform: scale(1);
+  margin: 15px 40px 0 0;
+  fill: var(--dark-blue);
 }
