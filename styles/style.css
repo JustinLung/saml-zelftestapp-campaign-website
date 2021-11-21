@@ -12,7 +12,10 @@
   --dark-blue: #0e49a2;
   --dark-lighter-blue: #0b53c8;
   --lighter-blue: #0b61ee;
-  --light-blue: #1970ff;
+  --light-blue: #1e64e7;
+  --secondary: #eff3fa;
+  --white: #fff;
+  --text-color: #2e3a59;
 }
 
 * {
@@ -20,10 +23,12 @@
   scroll-behavior: smooth;
 }
 
-body { 
+body {
   font-family: "SF-Pro-Display", sans-serif;
   padding: 0;
   margin: 0;
+
+  color: var(--text-color);
 }
 
 h1,
@@ -38,13 +43,82 @@ p {
 }
 
 main {
-  padding: 0 1em;
+  padding: 1em;
 }
 
+button {
+  all: unset;
+  font-size: 1.25rem;
+  border-radius: 0.25em;
+  
+  padding: .5em 1.5em;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.cta-light {
+  background-color: var(--white);
+  margin-right: .5em;
+}
+
+.cta-blue {
+  color: var(--white);
+  background-color: var(--light-blue);
+}
+
+/* HOME SECTION */
+
+#home {
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+#home div {
+  flex: 1;
+  margin: auto;
+  margin: .5em 0;
+}
+
+#home div:nth-child(1) {
+  max-width: 45em;
+}
+
+#home div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home div > h2 {
+  font-size: 1.9rem;
+  padding-bottom: 0.3em;
+}
+
+#home div > h2 > span {
+  color: var(--light-blue);
+}
+
+#home div > p {
+  font-size: 1.3rem;
+  padding: 0.5em 0;
+}
+
+#home div > image {
+  width: 100%;
+}
+
+/* FUNCTIES SECTION */
+
 .service > h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--dark-blue);
-  padding: .4em 0;
+  padding: 0.4em 0;
   text-align: center;
 }
 
@@ -80,6 +154,10 @@ main {
 }
 
 @media (min-width: 40em) {
+  #home div > h2 {
+    font-size: 2rem;
+  }
+
   .service > .service-grid-container {
     grid-template-columns: 1fr 1fr;
   }
@@ -90,7 +168,20 @@ main {
 }
 
 @media (min-width: 70em) {
-    .service > .service-grid-container {
-        grid-template-columns: 1fr 1fr 1fr;
-      }
+  #home {
+    flex-direction: row;
+    padding: 6em 4em;
+  }
+
+  #home div > h2 {
+    font-size: 3rem;
+  }
+
+  #home div > p {
+    font-size: 1.5rem;
+  }
+
+  .service > .service-grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
