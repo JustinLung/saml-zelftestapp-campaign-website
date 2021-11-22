@@ -21,7 +21,7 @@ SAML wilt een campagne website voor de nieuwe scanmytest.com app. Hierbij is er 
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
-[🌐 Live Versie](https://TestAssistent.student.fdnd.nl/)
+[🌐 Live Versie](https://testassistent.student.fdnd.nl/)
 
 ## 🐸 Kenmerken
 
