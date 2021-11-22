@@ -199,17 +199,22 @@ footer {
 
 footer a,
 footer h3,
-footer h4 {
+footer .footer-title {
   text-decoration: none;
   color: var(--white);
 }
 
-footer h3 {
-  margin: 1.5em 1em;
+footer .footer-title {
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
-footer ul,
-footer p {
+footer h3 {
+  font-size: 1.6rem;
+}
+
+footer > .footer-wrapper,
+footer .footer-copyright-wrapper {
   margin: 1em;
 }
 
@@ -220,6 +225,10 @@ footer .footer-copyright-wrapper {
   border-top: 0.1em;
   border-style: solid;
   padding-bottom: 2em;
+}
+
+footer ul .footer-title {
+  margin-top: 0.5em;
 }
 
 @media (min-width: 40em) {
@@ -243,7 +252,11 @@ footer .footer-copyright-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1em 0;
+    margin: 1em;
+  }
+
+  footer .footer-wrapper ul {
+    margin-left: 1.5em;
   }
 
   footer .footer-copyright-wrapper {
