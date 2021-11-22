@@ -61,6 +61,8 @@ button:hover {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .cta-light {
@@ -190,7 +192,6 @@ ul {
 /* FOOTER */
 footer {
   background-color: var(--light-blue);
-  width: 100%;
   height: auto;
   position: relative;
   overflow: hidden;
@@ -203,37 +204,21 @@ footer h4 {
   color: var(--white);
 }
 
-footer .footer-wrapper {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
+footer h3 {
+  margin: 1.5em 1em;
 }
 
-footer .footer-wrapper .footer-logo-container {
-  display: flex;
-  align-items: center;
-  margin-right: 2em;
-
-}
-
-footer .footer-wrapper .footer-menu-container {
-  margin: 2em;
-}
-
-footer .footer-wrapper .footer-social-container {
-  margin: 2em;
+footer ul,
+footer p {
+  margin: 1em;
 }
 
 footer .footer-copyright-wrapper {
   max-width: 750px;
-  padding-bottom: 2em;
-  margin: 0 auto;
   color: var(--white);
   border: 0;
   border-top: 0.1em;
   border-style: solid;
-  padding: 2em;
   padding-bottom: 2em;
 }
 
@@ -248,6 +233,21 @@ footer .footer-copyright-wrapper {
 
   .service .service-container > h3 {
     font-size: 1.4rem;
+  }
+
+  footer {
+    margin: 0 auto;
+  }
+
+  footer .footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+  }
+
+  footer .footer-copyright-wrapper {
+    margin: 0 auto;
   }
 }
 
@@ -275,25 +275,5 @@ footer .footer-copyright-wrapper {
 
   .service > .service-grid-container {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media (max-width: 45em) {
-  footer .footer-wrapper {
-    flex-direction: column;
-    padding: 2em;
-  }
-  footer .footer-wrapper .footer-logo-container {
-    margin: 0;
-  }
-  footer .footer-wrapper .footer-menu-container {
-    margin: 0;
-  }
-  footer .footer-wrapper .footer-social-container {
-    margin: 0;
-  }
-
-  footer ul {
-    padding: 0;
   }
 }
