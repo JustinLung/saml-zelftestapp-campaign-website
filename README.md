@@ -1,6 +1,6 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# 🧪 ScanMyTest
+# 🧪 TestAssistent
 
 ## 📙 Inhoudsopgave
 
@@ -21,7 +21,7 @@ SAML wilt een campagne website voor de nieuwe scanmytest.com app. Hierbij is er 
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
-[🌐 Live Versie](https://scanmytest.student.fdnd.nl/)
+[🌐 Live Versie](https://TestAssistent.student.fdnd.nl/)
 
 ## 🐸 Kenmerken
 
