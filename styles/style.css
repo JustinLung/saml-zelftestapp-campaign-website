@@ -15,7 +15,10 @@
   --light-blue: #1e64e7;
   --secondary: #eff3fa;
   --white: #fff;
+  --black: #000;
   --text-color: #2e3a59;
+  --border: #a5c5fe;
+  --cta-color: #d2e2ff;
 }
 
 * {
@@ -48,12 +51,8 @@ main {
 
 button {
   all: unset;
-  font-size: 1.25rem;
-  border-radius: 0.25em;
-  
-  padding: .5em 1.5em;
   cursor: pointer;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 button:hover {
@@ -62,12 +61,41 @@ button:hover {
 
 .cta-light {
   background-color: var(--white);
-  margin-right: .5em;
+  margin: .7em 0;
+  padding: 0.5em 1.5em;
+  border-radius: 0.25em;
 }
 
 .cta-blue {
   color: var(--white);
   background-color: var(--light-blue);
+  padding: 0.5em 1.5em;
+  border-radius: 0.25em;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-blue > img {
+  margin-left: .5em;
+}
+
+.cta-language {
+  background-color: var(--cta-color);
+  color: var(--black);
+  border: 1px solid (var(--border));
+  border-radius: 1.5em;
+  font-size: 1rem;
+
+  padding: 0.5em 1.5em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-language > img {
+  margin-left: .2em;
 }
 
 /* HOME SECTION */
@@ -76,17 +104,17 @@ button:hover {
   background-color: var(--secondary);
   display: flex;
   flex-direction: column;
-  padding: 1em;
+  padding: 6em 1em;
 }
 
 #home div {
   flex: 1;
   margin: auto;
-  margin: .5em 0;
+  margin: 0.5em 0;
 }
 
-#home div:nth-child(1) {
-  max-width: 45em;
+#home .cta-language:first-child {
+  margin-right: 0.2em;
 }
 
 #home div:nth-child(2) {
@@ -96,8 +124,8 @@ button:hover {
 }
 
 #home div > h2 {
-  font-size: 1.9rem;
-  padding-bottom: 0.3em;
+  font-size: 1.7rem;
+  padding: 0.3em 0;
 }
 
 #home div > h2 > span {
@@ -105,12 +133,14 @@ button:hover {
 }
 
 #home div > p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   padding: 0.5em 0;
 }
 
-#home div > image {
-  width: 100%;
+#home div > img {
+  max-width: 100%;
+  max-height: 100%;
+  display: none !important;
 }
 
 /* FUNCTIES SECTION */
@@ -155,7 +185,7 @@ button:hover {
 
 @media (min-width: 40em) {
   #home div > h2 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
   .service > .service-grid-container {
@@ -174,14 +204,23 @@ button:hover {
   }
 
   #home div > h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   #home div > p {
     font-size: 1.5rem;
   }
 
+  #home div > img {
+    display: block !important;
+  }
+
+  .cta-light  {
+    margin-right: 1em;
+  }
+
   .service > .service-grid-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
