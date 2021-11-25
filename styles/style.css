@@ -1,9 +1,24 @@
 @font-face {
   font-family: "SF-Pro-Display";
+  font-style: thin;
   src: url("../assets/fonts/SF-Pro-Display-Thin.woff2");
-  src: url("../assets/fonts/SF-Pro-Display-Light.woff2");
+}
+
+@font-face {
+  font-family: "SF-Pro-Display";
+  font-style: medium;
   src: url("../assets/fonts/SF-Pro-Display-Medium.woff2");
+}
+
+@font-face {
+  font-family: "SF-Pro-Display";
+  font-style: regular;
   src: url("../assets/fonts/SF-Pro-Display-Regular.woff2");
+}
+
+@font-face {
+  font-family: "SF-Pro-Display";
+  font-style: bold;
   src: url("../assets/fonts/SF-Pro-Display-Semibold.woff2");
 }
 
@@ -28,6 +43,7 @@
 
 body {
   font-family: "SF-Pro-Display", sans-serif;
+  font-style: regular;
   padding: 0;
   margin: 0;
 
@@ -194,11 +210,16 @@ ul {
 .cards .cards-container > h3 {
   color: var(--light-blue);
   padding-top: 1em;
+  font-size: 1.4rem;
 }
 
 .cards .cards-container > h4 {
-  font-size: 1.0625rem;
+  font-size: 1.2rem;
   padding: 0 0 0.8em 0;
+}
+
+.cards .cards-container > p {
+  font-size: 1rem;
 }
 
 .cards .cards-container {
@@ -280,6 +301,11 @@ footer ul .footer-title {
     font-size: 1.625rem;
   }
 
+  .service .service-container > p {
+    font-size: 1.2rem;
+  }
+  
+
   footer {
     margin: 0 auto;
   }
@@ -300,7 +326,7 @@ footer ul .footer-title {
   }
 }
 
-@media(min-width: 60em) {
+@media(min-width: 65em) {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
@@ -313,7 +339,15 @@ footer ul .footer-title {
   }
   
   .cards .cards-container > h3 {
+    font-size: 1.8rem;
+  }
+
+  .cards .cards-container > h4 {
     font-size: 1.4rem;
+  }
+
+  .cards .cards-container > p {
+    font-size: 1.2rem;
   }
 
   .result {
