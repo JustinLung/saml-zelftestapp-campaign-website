@@ -1,25 +1,25 @@
 @font-face {
   font-family: "SF-Pro-Display";
-  font-style: thin;
-  src: url("../assets/fonts/SF-Pro-Display-Thin.woff2");
+  font-weight: thin;
+  src: url("../assets/fonts/SF-Pro-Display-Thin.otf");
 }
 
 @font-face {
   font-family: "SF-Pro-Display";
-  font-style: medium;
-  src: url("../assets/fonts/SF-Pro-Display-Medium.woff2");
+  font-weight: medium;
+  src: url("../assets/fonts/SF-Pro-Display-Medium.otf");
 }
 
 @font-face {
   font-family: "SF-Pro-Display";
-  font-style: regular;
-  src: url("../assets/fonts/SF-Pro-Display-Regular.woff2");
+  font-weight: regular;
+  src: url("../assets/fonts/SF-Pro-Display-Regular.otf");
 }
 
 @font-face {
   font-family: "SF-Pro-Display";
-  font-style: bold;
-  src: url("../assets/fonts/SF-Pro-Display-Semibold.woff2");
+  font-weight: bold;
+  src: url("../assets/fonts/SF-Pro-Display-Semibold.otf");
 }
 
 /* Variables css */
@@ -43,7 +43,7 @@
 
 body {
   font-family: "SF-Pro-Display", sans-serif;
-  font-style: regular;
+  font-weight: regular;
   padding: 0;
   margin: 0;
 
