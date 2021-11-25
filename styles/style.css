@@ -102,7 +102,7 @@
     margin-bottom: 0.5em;
   }  
     
-  .cards > .cards-container {
+  .cards {
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -116,7 +116,7 @@
       font-size: 1.4rem;
     }
 
-    .cards > .cards-container {
+    .cards {
       grid-template-columns: 1fr 1fr;
     }
   
