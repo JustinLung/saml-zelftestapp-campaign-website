@@ -120,6 +120,17 @@ ul {
   margin-left: 0.2em;
 }
 
+main > section {
+  opacity: 0;
+  transition: 1s ease-in-out;
+  transform: translate(-550px);
+}
+
+.observed {
+  opacity: 1;
+  transform: translate(0px);
+}
+
 /* HOME SECTION */
 
 #home {
@@ -423,7 +434,6 @@ footer ul .footer-title {
     margin-left: calc(25% + 4em) !important;
   }
 
-
   .info {
     margin: 2em;
     flex-direction: row;
@@ -433,7 +443,7 @@ footer ul .footer-title {
 @media (min-width: 70em) {
   #home {
     flex-direction: row;
-    padding: 6em 4em;
+    padding: 10em 4em;
   }
 
   #home div > h2 {
