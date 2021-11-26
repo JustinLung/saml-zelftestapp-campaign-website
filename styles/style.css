@@ -120,7 +120,7 @@ ul {
   margin-left: 0.2em;
 }
 
-main > section {
+/* main > section {
   opacity: 0;
   transition: 1s ease-in-out;
   transform: translate(-550px);
@@ -129,7 +129,7 @@ main > section {
 .observed {
   opacity: 1;
   transform: translate(0px);
-}
+} */
 
 /* HOME SECTION */
 
