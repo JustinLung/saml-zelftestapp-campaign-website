@@ -292,8 +292,6 @@ footer ul .footer-title {
 
   .about-container {
     flex-direction: row !important;
-
-
   }
 
 }
@@ -322,9 +320,12 @@ footer ul .footer-title {
 .about-container div>h3 {
   color: var(--light-blue);
   padding: 0.4em 0;
+  font-size: 2rem;
 }
 
-
+.about-container div> p {
+  font-size: 1.2rem;
+}
 
 .about-container div>img {
   border-radius: 1rem;
