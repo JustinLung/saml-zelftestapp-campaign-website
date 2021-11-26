@@ -205,6 +205,46 @@ ul {
   grid-template-columns: 1fr;
 }
 
+/* info section (Wat heeft u nodig) */
+
+.info {
+
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.info > h2 {
+  font-size: 2em;
+  color: var(--light-blue);
+  padding: 0.4em;
+  grid-column: 1;
+  grid-row: 1/2;
+  text-align: center;
+  margin-top:0.2em;
+  margin-bottom: 0.2em;
+  
+
+}
+
+.info > p {
+  font-size: 1.2rem;
+  grid-column: 1;
+  grid-row:2/3;
+  margin-top: -5em;
+  text-align: center;
+}
+
+.covidtest {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 16px;
+  grid-column: 1;
+  grid-row:2/4;
+
+}
+
 /* CARDS SECTION */
 
 .cards .cards-container > h3 {
@@ -317,6 +357,8 @@ footer ul .footer-title {
   margin-top: 0.5em;
 }
 
+
+
 @media (min-width: 40em) {
   #home div > h2 {
     font-size: 1.9rem;
@@ -337,8 +379,7 @@ footer ul .footer-title {
   .service .service-container > p {
     font-size: 1.2rem;
   }
-  
-
+   
   footer {
     margin: 0 auto;
   }
@@ -357,6 +398,25 @@ footer ul .footer-title {
   footer .footer-copyright-wrapper {
     margin: 0 auto;
   }
+
+  .info > h2 {
+    margin-top:10%;
+  
+
+  }
+
+  .info > p {
+    margin-top: -15%;
+  }
+
+  .covidtest {
+    width: 100%;
+  
+   
+  }
+
+
+
 }
 
 @media(min-width: 65em) {
@@ -388,6 +448,35 @@ footer ul .footer-title {
     max-width: calc(50% - 12em);
     margin-left: calc(25% + 4em) !important;
   }
+
+  
+  .info > h2 {
+      grid-column: 1;
+      grid-row: 2;
+      text-align: left;
+      margin-top: 15%;
+    
+  
+  }
+  
+  .info > p  {
+    padding-left: 0.7em;
+    grid-column: 1;
+    grid-row:3;
+    margin-top: -1em;
+    text-align: left;
+  }
+  
+  .covidtest {
+   width: 80%;
+   grid-column: 2;
+   grid-row:1/4;
+   margin-left: 5em;
+   margin-top: 4em;
+  
+  }
+
+
 
 }
 
@@ -424,4 +513,40 @@ footer ul .footer-title {
   .about-container div {
     margin: 2em 4em;
   }
+  .info {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  
+  }
+  
+  .info > h2 {
+      grid-column: 1;
+      grid-row: 2;
+      text-align: left;
+      margin-top: -2%;
+      
+    
+  
+  }
+  
+  .info > p  {
+    padding-left: 0.7em;
+    grid-column: 1;
+    grid-row:3;
+    margin-top: -3em;
+    text-align: left;
+  }
+  
+  .covidtest {
+   width: 70%;
+   grid-column: 2;
+   grid-row:1/4;
+   margin-left: 6em;
+   margin-top: 3em;
+  
+  }
+
+
 }
