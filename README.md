@@ -65,6 +65,9 @@ Link naar de [Wiki](https://github.com/JustinLung/saml-zelftestapp-campaign-webs
 
 ## 🥇 Bronnen
 
+- [🍎 Font - SF Pro](https://developer.apple.com/fonts/)
+- [🌊 Unsplash](https://unsplash.com/)
+
 ## ✅ Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
