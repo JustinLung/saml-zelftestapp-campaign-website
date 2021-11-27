@@ -15,7 +15,7 @@
 
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 
-SAML wilt een campagne website voor de nieuwe scanmytest.com app. Hierbij is er een one page ontwikkelt om deze weer te geven.
+SAML wilt een campagne website voor de nieuwe testassistent.com app. Hierbij is er een one page ontwikkelt om deze weer te geven.
 
 <!-- Voeg een mooie poster visual toe 📸 -->
 
