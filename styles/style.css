@@ -131,6 +131,11 @@ ul {
   transform: translate(0px);
 } */
 
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
 /* HOME SECTION */
 
 #home {

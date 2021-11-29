@@ -8,10 +8,6 @@
 // function showHeadings(entries, observer) {
 //     entries.forEach(entry => {
 //         const targetClass = entry.target.classList;
-//         if (entry.isIntersecting) {
-//             targetClass.add('observed')
-//         } else {
-//             targetClass.remove('observed')
-//         }
+//         if (entry.isIntersecting) targetClass.add('observed')
 //     });
 // };
