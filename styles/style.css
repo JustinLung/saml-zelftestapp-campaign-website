@@ -81,11 +81,20 @@ ul {
   margin: 0;
 }
 
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
 .cta-light {
   background-color: var(--white);
   margin: 0.7em 0;
   padding: 0.5em 1.5em;
   border-radius: 0.25em;
+}
+
+.cta-light:hover {
+  transform: scale(1.1) !important;
 }
 
 .cta-blue {
@@ -134,6 +143,53 @@ ul {
 a {
   text-decoration: none;
   color: var(--black);
+}
+
+/* HEADER */
+
+.logo {
+  z-index: 9999;
+}
+
+.logo span {
+  color: var(--light-blue);
+}
+
+.primary-header {
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white);
+  height: 6em;
+  /* margin: 0 2em; */
+  padding: 0 2em;
+  position: fixed;
+  width: 100%;
+}
+
+.primary-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.mobile-nav-toggle {
+  display: none;
+}
+
+header h1,
+header a {
+  color: var(--text-color);
+}
+
+header a {
+  font-size: 1.1em;
+}
+
+header a:hover {
+  color: var(--light-blue);
 }
 
 /* HOME SECTION */
@@ -266,7 +322,7 @@ a {
 
 .cards .cards-container > h4 {
   font-size: 1.2rem;
-  padding: 0 0 0.8em 0;
+  padding-bottom: 0.2em;
 }
 
 .cards .cards-container > p {
@@ -328,12 +384,12 @@ a {
 
 /* USE SECTION */
 .use-section {
-  background-image: url('../assets/download-section-image.png');
+  background-image: url("../assets/download-section-image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
-  height: auto; 
+  height: auto;
 
   display: flex;
   flex-direction: column;
@@ -436,6 +492,43 @@ footer ul .footer-title {
 
   footer .footer-copyright-wrapper {
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 44em) {
+  .primary-navigation {
+    --gap: 2em;
+
+    position: fixed;
+    z-index: 1000;
+    inset: 0 0 0 30%;
+
+    flex-direction: column;
+    padding: min(30vh, 8rem) 2rem;
+
+    background: var(--body-color);
+    /* backdrop-filter: blur(1rem); */
+
+    transform: translateX(100%);
+    background-color: var(--white);
+  }
+
+  .primary-navigation[data-visible="true"] {
+    transform: translateX(0%);
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    background: url("assets/img/menu.png");
+    background-repeat: no-repeat;
+    font-size: 2em;
+    color: var(--dark-blue);
+    top: 2rem;
+    right: 2rem;
+    aspect-ratio: 1;
+    border: 0;
   }
 }
 
