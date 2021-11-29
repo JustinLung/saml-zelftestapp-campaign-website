@@ -11,17 +11,12 @@
 
 ## ⛩️ Beschrijving
 
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+[🌐 Live Versie](https://testassistent.student.fdnd.nl/)
 
-SAML wilt een campagne website voor de nieuwe testassistent.com app. Hierbij is er een one page ontwikkelt om deze weer te geven.
-
-<!-- Voeg een mooie poster visual toe 📸 -->
+SAML wilt een campagne website voor de nieuwe testassistent.com app. Hierbij is er een one page ontwikkelt met behulp van HTML, CSS & JS om deze weer te geven.
 
 ![TestAssistent Mockup](https://raw.githubusercontent.com/JustinLung/saml-zelftestapp-campaign-website/main/docs/testassistent_mockup.jpg)
 
-<!-- Voeg een link toe naar Github Pages 🌐-->
-
-[🌐 Live Versie](https://testassistent.student.fdnd.nl/)
 
 ## 🐸 Kenmerken
 
