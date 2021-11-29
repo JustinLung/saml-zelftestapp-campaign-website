@@ -17,7 +17,8 @@ SAML wilt een campagne website voor de nieuwe testassistent.com app. Hierbij is 
 
 <!-- Voeg een mooie poster visual toe 📸 -->
 
-![TestAssistent Mockup](https://raw.githubusercontent.com/JustinLung/saml-zelftestapp-campaign-website/main/docs/testassistent_mockup.jpg)
+<img src="https://raw.githubusercontent.com/JustinLung/saml-zelftestapp-campaign-website/main/docs/testassistent_mockup.jpg" alt="TestAssistent Mockup"
+	title="TestAssistent Mockup" width="150" height="100" />
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
