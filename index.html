@@ -1,209 +1,209 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-    <title>TestAssistent</title>
-  </head>
-  <body>
-    <header class="primary-header flex">
-      <h1 class="logo">
-        <span>Test</span>Assistent      
-      </h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-      <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><i class='bx bx-menu'></i></button>
+  <title>TestAssistent</title>
+</head>
 
-      <nav>
-          <ul id="primary-navigation" class="primary-navigation flex" data-visible="false">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#service">Functies</a></li>
-              <li><a href="#about">Over ons</a></li>
+<body>
+  <header class="primary-header flex">
+    <h1 class="logo">
+      <span>Test</span>Assistent
+    </h1>
 
-              <li> <button class="cta-blue">
-                Bekijk de app
-                <img src="./assets/icons/coolicon.svg" alt="arrow button">
-              </button></li>
-          </ul>
-      </nav>
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><i
+        class='bx bx-menu'></i></button>
+
+    <nav>
+      <ul id="primary-navigation" class="primary-navigation flex" data-visible="false">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#service">Functies</a></li>
+        <li><a href="#about">Over ons</a></li>
+
+        <li> <button class="cta-blue">
+            Bekijk de app
+            <img src="./assets/icons/coolicon.svg" alt="arrow button">
+          </button></li>
+      </ul>
+    </nav>
   </header>
-    <section id="home">
+  <section id="home">
+    <div class="text-container">
+      <button class="cta-language">
+        NL <img src="assets/icons/NL.svg" alt="NL Vlag" />
+      </button>
+      <button class="cta-language">
+        ENG <img src="assets/icons/GB.svg" alt="VK Vlag" />
+      </button>
+      <h2>
+        <span>Test</span>Assistent, Instructies voor COVID-19 Antigeen
+        Zelftest
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <p>Krijg uw testresultaat binnen 20 minuten!</p>
+      <a class="cta-light" href="#service">Meer informatie</a>
+      <button class="cta-blue">
+        Bekijk de app
+        <img src="./assets/icons/coolicon.svg" alt="arrow button" />
+      </button>
+    </div>
+    <div class="image-container">
+      <img src="assets/hero-image.png" alt="COVID-19 Self-Test Kit" />
+    </div>
+  </section>
+
+  <main>
+    <section class="service" id="service">
+      <h2>Functies</h2>
+      <div class="service-grid-container">
+        <div class="service-container easy">
+          <img src="assets/icons/mobiel.png" alt="Mobile Phone Icon" />
+          <h3>Makkelijk te gebruiken</h3>
+          <p>
+            Per stap van de zelf-test krijgt u <br />
+            uitgebreide instructies.
+          </p>
+        </div>
+        <div class="service-container privacy">
+          <img src="assets/icons/slot.png" alt="Privacy Icon" />
+          <h3>Uw privacy gaat voor</h3>
+          <p>
+            U gegevens worden niet gedeeld <br />
+            met andere partijen
+          </p>
+        </div>
+        <div class="service-container results">
+          <img src="assets/icons/timer.png" alt="Timer Icon" />
+          <h3>Snelle resultaten</h3>
+          <p>
+            Binnen 20 minuten krijgt u de uitslag <br />
+            van uw zelf-test
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="info">
       <div class="text-container">
-        <button class="cta-language">
-          NL <img src="assets/icons/NL.svg" alt="NL Vlag" />
-        </button>
-        <button class="cta-language">
-          ENG <img src="assets/icons/GB.svg" alt="VK Vlag" />
-        </button>
-        <h2>
-          <span>Test</span>Assistent, Instructies voor COVID-19 Antigeen
-          Zelftest
-        </h2>
+        <h2>Wat heeft u nodig?</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Het verloop van de zelftest is nog nooit zo gemakkelijk geweest.
+          Volg de <br />
+          stappen hieronder!
         </p>
-        <p>Krijg uw testresultaat binnen 20 minuten!</p>
-        <a class="cta-light" href="#service">Meer informatie</a>
-        <button class="cta-blue">
-          Bekijk de app
-          <img src="./assets/icons/coolicon.svg" alt="arrow button" />
-        </button>
       </div>
       <div class="image-container">
-        <img src="assets/hero-image.png" alt="COVID-19 Self-Test Kit" />
+        <img class="covidtest" src="assets/covidtest.jpg" alt="covidtest" />
       </div>
     </section>
 
-    <main>
-      <section class="service" id="service">
-        <h2>Functies</h2>
-        <div class="service-grid-container">
-          <div class="service-container easy">
-            <img src="assets/icons/mobiel.png" alt="Mobile Phone Icon" />
-            <h3>Makkelijk te gebruiken</h3>
-            <p>
-              Per stap van de zelf-test krijgt u <br />
-              uitgebreide instructies.
-            </p>
-          </div>
-          <div class="service-container privacy">
-            <img src="assets/icons/slot.png" alt="Privacy Icon" />
-            <h3>Uw privacy gaat voor</h3>
-            <p>
-              U gegevens worden niet gedeeld <br />
-              met andere partijen
-            </p>
-          </div>
-          <div class="service-container results">
-            <img src="assets/icons/timer.png" alt="Timer Icon" />
-            <h3>Snelle resultaten</h3>
-            <p>
-              Binnen 20 minuten krijgt u de uitslag <br />
-              van uw zelf-test
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="info">
-        <div class="text-container">
-          <h2>Wat heeft u nodig?</h2>
-          <p>
-            Het verloop van de zelftest is nog nooit zo gemakkelijk geweest.
-            Volg de <br />
-            stappen hieronder!
-          </p>
-        </div>
-        <div class="image-container">
-          <img class="covidtest" src="assets/covidtest.jpg" alt="covidtest" />
-        </div>
-      </section>
-
-      <section class="cards">
-        <div class="cards-container complaints">
-          <img
-            src="assets/stap1.jpg"
-            alt="Een scherm met symptomen keuzes en een scherm met keuze voor als je in aanraking bent gekomen met iemand die positief is getest"
-          />
-          <h3>Stap 1.</h3>
-          <h4>Dien je klachten in</h4>
-          <p>
-            Als eerste selecteer je in de App welke symptomen van Covid jij
-            ervaart en of jij in aanraking bent gekomen met iemand die positief
-            is getest.
-          </p>
-        </div>
-        <div class="cards-container barcode">
-          <img
-            src="assets/stap2.jpg"
-            alt="Een scherm met de barcode om de zelftest te beginnen en een scherm met instructies"
-          />
-          <h3>Stap 2.</h3>
-          <h4>Scan de barcode van uw zelf-test</h4>
-          <p>
-            Vervolgens scan je de barcode van uw zelf-test om te beginnen. Na
-            het scannen doorloop je het stappenplan van de zelftest. Bij iedere
-            stap staan uitgebreide instructies die je ook kunt beluisteren.
-          </p>
-        </div>
-        <div class="cards-container result">
-          <img
-            src="assets/stap3.jpg"
-            alt="Een scherm met informatie en wat je moet doen als je negatief getest bent en een scherm met informatie wat u moet doen als u positief getest bent"
-          />
-          <h3>Stap 3.</h3>
-          <h4>Ontvang het resultaat</h4>
-          <p>
-            Na het doorlopen van uw zelf-test krijg je de uitslag en weet je of
-            je positief of negatief bent. Vervolgens krijg je aanvullende
-            informatie waarin staat wat u moet doen bij een positieve of
-            negatieve uitslag.
-          </p>
-        </div>
-      </section>
-    </main>
-
-    <section class="about-container" id="about">
-      <div>
-        <h3>Over ons</h3>
+    <section class="cards">
+      <div class="cards-container complaints">
+        <img src="assets/stap1.jpg"
+          alt="Een scherm met symptomen keuzes en een scherm met keuze voor als je in aanraking bent gekomen met iemand die positief is getest" />
+        <h3>Stap 1.</h3>
+        <h4>Dien je klachten in</h4>
         <p>
-          Het zelftest App project is een samenwerking tussen Streeklab Haarlem
-          en verschillende instanties binnen de Hva (Smart Management Lab,
-          HBO-ICT, CMD en FDND). <br /><br />Streeklab Haarlem is het
-          kenniscentrum voor infectieziekten, infectiepreventie en
-          microbiologische diagnostiek voor regio Kennemerland en omstreken. Het
-          is een zelfstandige, geprivatiseerde, geaccrediteerde stichting.
+          Als eerste selecteer je in de App welke symptomen van Covid jij
+          ervaart en of jij in aanraking bent gekomen met iemand die positief
+          is getest.
         </p>
       </div>
-      <div><img src="/assets/AboutImage.jpg" alt="Zelftest image" /></div>
-    </section>
-
-    <section class="use-section">
-      <div>
-        <h3>
-          Gebruik nu de TestAssistent <br />
-          zonder problemen
-        </h3>
+      <div class="cards-container barcode">
+        <img src="assets/stap2.jpg"
+          alt="Een scherm met de barcode om de zelftest te beginnen en een scherm met instructies" />
+        <h3>Stap 2.</h3>
+        <h4>Scan de barcode van uw zelf-test</h4>
         <p>
-          Ervaar jij problemen bij het nemen van een zelftest? <br> Gebruik de
-          zelf-test app om gemakkelijk de zelftest te nemen.
+          Vervolgens scan je de barcode van uw zelf-test om te beginnen. Na
+          het scannen doorloop je het stappenplan van de zelftest. Bij iedere
+          stap staan uitgebreide instructies die je ook kunt beluisteren.
         </p>
       </div>
-
-      <div><img src="assets/app-homescreen.png" alt="Homescreen TestAssistent"></div>
+      <div class="cards-container result">
+        <img src="assets/stap3.jpg"
+          alt="Een scherm met informatie en wat je moet doen als je negatief getest bent en een scherm met informatie wat u moet doen als u positief getest bent" />
+        <h3>Stap 3.</h3>
+        <h4>Ontvang het resultaat</h4>
+        <p>
+          Na het doorlopen van uw zelf-test krijg je de uitslag en weet je of
+          je positief of negatief bent. Vervolgens krijg je aanvullende
+          informatie waarin staat wat u moet doen bij een positieve of
+          negatieve uitslag.
+        </p>
+      </div>
     </section>
+  </main>
 
-    <footer>
-      <div class="footer-wrapper">
-        <h3 class="footer-logo">TestAssistent</h3>
-        <ul>
-          <li class="footer-title">Menu</li>
-          <li><a href="#">Onze app</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Functies</a></li>
-          <li><a href="#">Over ons</a></li>
-        </ul>
-        <ul>
-          <li class="footer-title">Social</li>
-          <li>
-            <a href="#" target="_blank">Instagram</a>
-          </li>
-          <li>
-            <a href="#" target="_blank">Facebook</a>
-          </li>
-          <li>
-            <a href="#" target="_blank">LinkedIn</a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-copyright-wrapper">
-        <p>© Streeklab Haarlem 2021</p>
-      </div>
-    </footer>
-    <script src="scripts/main.js"></script>
-  </body>
+  <section class="about-container" id="about">
+    <div>
+      <h3>Over ons</h3>
+      <p>
+        Het zelftest App project is een samenwerking tussen Streeklab Haarlem
+        en verschillende instanties binnen de Hva (Smart Management Lab,
+        HBO-ICT, CMD en FDND). <br /><br />Streeklab Haarlem is het
+        kenniscentrum voor infectieziekten, infectiepreventie en
+        microbiologische diagnostiek voor regio Kennemerland en omstreken. Het
+        is een zelfstandige, geprivatiseerde, geaccrediteerde stichting.
+      </p>
+    </div>
+    <div><img src="/assets/AboutImage.jpg" alt="Zelftest image" /></div>
+  </section>
+
+  <section class="use-section">
+    <div>
+      <h3>
+        Gebruik nu de TestAssistent <br />
+        zonder problemen
+      </h3>
+      <p>
+        Ervaar jij problemen bij het nemen van een zelftest? <br> Gebruik de
+        zelf-test app om gemakkelijk de zelftest te nemen.
+      </p>
+    </div>
+
+    <div><img src="assets/app-homescreen.png" alt="Homescreen TestAssistent">
+    </div>
+    <div class="btn"><a href="#"><img src="assets/Arrow.svg" alt="button"></img></a></div>
+  </section>
+
+  <footer>
+    <div class="footer-wrapper">
+      <h3 class="footer-logo">TestAssistent</h3>
+      <ul>
+        <li class="footer-title">Menu</li>
+        <li><a href="#">Onze app</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Functies</a></li>
+        <li><a href="#">Over ons</a></li>
+      </ul>
+      <ul>
+        <li class="footer-title">Social</li>
+        <li>
+          <a href="#" target="_blank">Instagram</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Facebook</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-copyright-wrapper">
+      <p>© Streeklab Haarlem 2021</p>
+    </div>
+  </footer>
+  <script src="scripts/main.js"></script>
+</body>
+
 </html>
