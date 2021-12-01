@@ -8,9 +8,10 @@ elements.forEach(element => {
 function showHeadings(entries, observer) {
     entries.forEach(entry => {
         const targetClass = entry.target.classList;
-        if (entry.isIntersecting) targetClass.add('observed')
+        if (entry.isIntersecting) targetClass.add('observed');
     });
 };
+
 const primaryNav = document.querySelector(".primary-navigation");
 const navToggle = document.querySelector(".mobile-nav-toggle");
 

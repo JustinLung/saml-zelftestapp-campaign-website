@@ -136,7 +136,7 @@ ul {
 main > section {
   opacity: 0;
   transition: 1s ease-in-out;
-  transform: translate(-550px);
+  transform: translate(-100px);
 }
 
 .observed {
@@ -198,6 +198,7 @@ a {
   padding: 0 2em;
   position: fixed;
   width: 100%;
+  z-index: 99999;
 }
 
 .primary-navigation {
