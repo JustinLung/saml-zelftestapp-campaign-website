@@ -13,14 +13,26 @@ function showHeadings(entries, observer) {
 };
 const primaryNav = document.querySelector(".primary-navigation");
 const navToggle = document.querySelector(".mobile-nav-toggle");
+const Cross = document.querySelector(".cross");
 
 navToggle.addEventListener('click', () => {
     const visibility = primaryNav.getAttribute("data-visible");
 
     if (visibility === "false") {
-        primaryNav.setAttribute("data-visible", true)   
+        primaryNav.setAttribute("data-visible", true)
     } else if (visibility === "true") {
-        primaryNav.setAttribute("data-visible", false)   
+        primaryNav.setAttribute("data-visible", false)
     }
 });
 
+document.getElementById("test").onclick = function() {closeNav()};
+
+function closeNav() {
+    Cross.addEventListener('click', () => {
+        const visibility = primaryNav.getAttribute("data-visible");
+
+        if (visibility === "true") {
+            primaryNav.setAttribute("data-visible", false)
+        }
+    });
+}
