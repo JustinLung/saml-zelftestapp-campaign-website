@@ -607,6 +607,15 @@ footer ul .footer-title {
     display: block !important;
   }
 
+  .buttons-nav{
+    height: 26px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+
   .cta-light {
     margin-right: 1em;
   }
@@ -635,7 +644,7 @@ nav p{
   line-height: 1.2;
 
 }
-
+/* 
 .buttons-nav{
   height: 26px;
   width: 100%;
@@ -643,7 +652,7 @@ nav p{
   justify-content: center;
   align-items: center;
   gap: 1em;
-}
+} */
 
 .href{
   height: 100%;
@@ -724,7 +733,17 @@ nav p{
     display: block;
   
   }
-  
+
+  .btn {
+    width: 3em;
+    height: 3em;
+    padding: 1em;
+
+  }
+  .btn img {
+    height: 1em;
+    width: 1em;
+  }
   
 }
 
