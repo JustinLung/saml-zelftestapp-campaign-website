@@ -317,28 +317,20 @@ header a:hover {
 
 .info {
   height: auto;
-  display: flex;
-  flex-direction: column;
-  margin: 1em;
-}
-
-.info div {
-  flex: 1;
-}
-
-.info .text-container {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.info .image-container > img {
+.image-container> img {
   max-height: 100%;
   max-width: 100%;
   border-radius: 0.5em;
 }
 
-.info .text-container > h2 {
+.text-container> h2 {
   font-size: 2rem;
   color: var(--light-blue);
 }
@@ -346,6 +338,11 @@ header a:hover {
 .info .text-container > p {
   font-size: 1.2rem;
   padding-bottom: 0.5em;
+}
+
+.info .text-container,
+.info .image-container {
+  flex: 1;
 }
 
 /* CARDS SECTION */
@@ -565,8 +562,8 @@ footer ul .footer-title {
   }
 
   .info {
-    margin: 2em;
     flex-direction: row;
+    margin: 2em;
   }
 
   .use-section {
